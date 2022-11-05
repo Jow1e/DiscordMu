@@ -8,6 +8,7 @@ from youtube_dl import YoutubeDL
 
 from typing import Optional
 
+class MusiCog(cmd.Cog):
     def __init__(self, bot: cmd.Bot):
         self.bot = bot
 
