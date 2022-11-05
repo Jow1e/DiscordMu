@@ -5,11 +5,11 @@ import asyncio
 
 intents = discord.Intents.all()
 
-bot = cmd.Bot(command_prefix="eblan ", intents=intents)
+bot = cmd.Bot(command_prefix="horny ", intents=intents)
 
 
 asyncio.run(bot.add_cog(MusiCog(bot)))
-bot.run("OTg4MDAyODQ0MDEzNjQ5OTYw.G3by2n.Od8iia2VmP3ma-wW_eQtZ-56a9TBYKLz1uR3dI")
+bot.run("<discord bot api token>")
 
 
 #
